@@ -7,9 +7,9 @@ const bodyParser = require('body-parser');
 const { MongoClient } = require('mongodb');
 
 
-const uri = "mongodb+srv://google_scholar:MongoDB@google-scholar.qnhzi.mongodb.net/<dbname>?retryWrites=true&w=majority";
+const uri = "";
 const client = new MongoClient(uri);
-const apiSecret = 's4w2hYKznWiFqJ6jJMjQsx2vQ2DlNYwm';
+const apiSecret = '';
 
 app.use(bodyParser.json());
 
